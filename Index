@@ -1,14 +1,23 @@
 <!doctype html>
 
-<html>
+
+<html lang="en">
 
   <head>
+  
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="MainStylesheet.css">
+		<meta charset="UTF-8">
 
   </head>
 
 
-
   <body>
+
+    <div class header></div>
+    <div class body></div>
+    <div class footer></div>
+
 
   </body>
   
