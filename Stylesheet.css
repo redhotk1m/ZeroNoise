@@ -69,10 +69,10 @@ a:active {
 }
 
 #headerright {
+	border: 1px solid black;
 	position: relative;
-	margin-left:50%;
-	float:left;
-	width: 50%;
+	float:right;
+	
 
 }
 
@@ -130,7 +130,7 @@ a:active {
 }
 
 @media only screen and (max-width: 340px) {
-    body {
+    html, link {
         
     }
 }
