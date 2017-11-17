@@ -1,25 +1,8 @@
-
-.contentbilde img{
-	height: 100%;
-	width: 100%;
-	padding-right: 20%;
-	border-radius: 40px;
-
-}
-
 body{
 	position: absolute;
 	width: 100%;
 	height: 100%;
 	background-color: #dee4ed;
-}
-
-#navbar {
-	background-color: green;
-	color:black;
-	text-decoration: none;
-	font-size: 40px;
-
 }
 
 ul {
@@ -41,47 +24,68 @@ a {
 	padding: 0 12% 0 5%;
 	text-decoration: none;
 	line-height: 150%;
-	color: white;
+	color: navy;
+	font-size:1.2em;
 }
 
+.contentbilde img{
+	height: 100%;
+	width: 100%;
+	padding-right: 20%;
+	border-radius: 40px;
 
-#header {
+}
+
+.headerwrapper {
 	position: fixed;
-	/*background-color: gray;*/
-	border:4px solid #000;	
+	background-color: #dee4ed;	
 	width:100%; 
 	height:10%; 
 	left: 0;
 	top: 0;
 	z-index: 1;
-	box-shadow: 10px 10px 5px #888888;
+	box-shadow: 0em 1em 1em #888888;
 
-
-}
-
-#header ul a:hover {
-	text-decoration:underline;
-	
-}
-
-#header ul a:visited {
-	color:green;
-	
 }
 
 .contentwrapper {
 	position: relative;
 	align-content: center;
-	border:1px solid #000; 
 	width:80%; 
 	height:200%;
 	margin:12% auto 0px auto;
 	background-color: #eaeff7;
 }
 
+#navbar {
+	background-color: green;
+	color:black;
+	text-decoration: none;
+	font-size: 40px;
+
+}
+
+
+#headerleft {
+	position: absolute;
+	float:left;
+}
+
+#headerright {
+	position: relative;
+	margin-left:50%;
+	float:left;
+	width: 50%;
+}
+
+#headerright ul a:hover {
+	text-decoration:underline;
+	
+}
+
+
 #contenttext {
 	float left;
-	border:5px solid #000;
 	width: 40%;
 	height: 90%;
 	margin: 0;
@@ -90,7 +94,6 @@ a {
 }
 
 #contentbilde {
-	border:5px solid #000;
 	float: right;
 	width: 100%
 	height: 100%;
@@ -103,4 +106,11 @@ a {
 	width: 10%;
 }
 
-
+#Logo {
+	z-index: 5;
+	left:0;
+	margin-top: 0.5%;
+	margin-left:-10%;
+	width: 30%;
+	height: 20%;
+}
