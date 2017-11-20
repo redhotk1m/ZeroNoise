@@ -1,0 +1,212 @@
+
+
+body{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #d8dfea; /*#dee4ed*/
+}
+
+p {
+	margin-left: 2em;
+	margin-right: 2em;
+}
+
+h1 {
+	margin-top: 2em;
+}
+
+.center {
+	text-align: center;
+}
+
+#contactright {
+	margin-left: 1em;
+	margin-right: 2em;
+}
+.headerwrapper a {
+
+	text-decoration: none;
+	line-height: 150%;
+	color: #567675;
+	font-size:1.2em;
+}
+
+.headerwrapper a:active {
+	color: black;
+}
+
+.menucontainer {
+	text-decoration: underline;
+	text-align: center;
+	font-size: 1.4em;
+	padding: 1.4em 0 1.4em 0;
+}
+
+
+
+.headerwrapper {
+	position: fixed;
+	background-color: white;	/*#dee4ed*/
+	width:100%;  
+	left: 0;
+	top: 0;
+	z-index: 1;
+	box-shadow: 0em 1em 1em #888888;
+
+}
+
+.contentwrapper {
+	box-shadow: darkgrey 0.9em 0.9em 0.5em 0em;
+	position: relative;
+	width:80%; 
+	margin:10em auto 5% auto;
+	background-color: white; /*#eaeff7*/
+	display: center;
+	text-align: center;
+}
+
+.buttonDownload a {
+	box-shadow: silver 0em 0em 0.15em 0.15em;
+	display: inline-block;
+	position: relative;
+	padding: 1em 4em;
+  
+	background-color: #4CC713;
+	color: white;
+  
+	font-family: sans-serif;
+	text-decoration: underline;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+.buttonDownload:hover {
+	color: white;
+}
+
+.pdfDownload {
+	box-shadow: silver 0em 0em 0.15em 0.15em;
+	display: inline-block;
+	position: relative;
+	padding: 1em 4em;
+  
+	background-color: #4CC713;
+	color: white;
+  
+	font-family: sans-serif;
+	text-decoration: underline;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+.pdfDownload:hover {
+	background-color: #333;
+	color: white;
+}
+
+
+#headerright {
+	position: relative;
+	float:right;
+}
+
+
+#contenttext {
+	padding-top: 1em;
+	margin-bottom: 5%;
+	width: 40%;
+	height: 90%;
+	margin: 0;
+	padding-left: 1%;
+	line-height: 200%;
+}
+
+#contentright {
+	position: absolute;
+	padding-top: 3.4em;
+	align-content: left;
+	text-align: center;
+	height: 100%;
+	width: 50%;
+	right:0;
+	top:0;
+}
+
+#contactinfo {
+	position: absolute;
+	padding-top: 1.5em;
+	align-content: left;
+	width: 50%;
+	right:0;
+	top:0;
+}
+
+#bilde1 {
+	margin: 0 0 0 0;
+}
+
+#Logo {
+	position: absolute;
+	z-index: 5;
+	margin-left: 4.7em;
+	height: 4.8em;
+	padding-top: 0.2em;
+	padding-bottom: 0.3em;
+}
+
+.selected {
+	background-color: lightgrey;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	/*
+	color: black;
+	border: 2px solid black;
+	border-bottom: 2px solid black;*/
+}
+
+
+#solution {
+	padding: 1.35em 2em 1.35em 2em;
+	border-right: 1px solid black;	
+	border-left: 1px solid black;
+}
+
+#problem {
+	padding: 1.35em 2em 1.35em 2em;
+}
+
+#contact {
+	padding: 1.35em 2em 1.35em 2em;
+}
+
+@media only screen and (max-width: 340px) {
+    html, link {
+        
+    }
+}
+
+
+#Logo2 .tooltiptext {
+	visibility: hidden;
+	position: absolute;
+	margin-left: 4.8em;
+	margin-top: 5.2em;
+	width: 5em;
+	color: black;
+	background:lightgrey;
+	font-size: 1.2em;
+	z-index: 5;
+}
+
+#Logo2:hover .tooltiptext {
+	visibility: visible;
+	transition-delay: 1s;
+}
+
+#contentright2 img{
+	margin-top: 2em;
+	display: inline-block;
+	position: center;
+	border-radius: 10%;
+}
