@@ -17,7 +17,7 @@ h1 {
 	text-align: center;
 }
 
-a {
+.headerwrapper a {
 
 	text-decoration: none;
 	line-height: 150%;
@@ -25,7 +25,7 @@ a {
 	font-size:1.2em;
 }
 
-a:active {
+.headerwrapper a:active {
 	color: black;
 }
 
@@ -57,7 +57,7 @@ a:active {
 	background-color: white; /*#eaeff7*/
 }
 
-.buttonDownload {
+.buttonDownload a {
 	box-shadow: silver 0em 0em 0.15em 0.15em;
 	display: inline-block;
 	position: relative;
@@ -73,7 +73,6 @@ a:active {
 }
 
 .buttonDownload:hover {
-	background-color: #333;
 	color: white;
 }
 
