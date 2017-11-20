@@ -149,24 +149,22 @@ a:active {
     }
 }
 
-span {
-	display: none;
-	opacity: 0;
+
+#Logo2 .tooltiptext {
+	visibility: hidden;
 	position: absolute;
-
-}
-
-#Logo2:hover span {
-	display: inline;
 	margin-left: 4.8em;
 	margin-top: 5.2em;
 	width: 5em;
 	color: black;
 	background:lightgrey;
 	font-size: 1.2em;
-	opacity: 1;
-	z-index: 1;
-	transition-delay: 10s;
+	z-index: 5;
+}
+
+#Logo2:hover .tooltiptext {
+	visibility: visible;
+	transition-delay: 1s;
 }
 
 #contentright2 img{
