@@ -14,11 +14,15 @@ p {
 
 h1 {
 	margin-top: 2em;
+}
+
+.center {
 	text-align: center;
 }
 
-h2 {
-	text-align: center;
+#contactright {
+	margin-left: 1em;
+	margin-right: 2em;
 }
 
 a {
@@ -81,15 +85,32 @@ a:active {
 	color: white;
 }
 
+.pdfDownload {
+	box-shadow: silver 0em 0em 0.15em 0.15em;
+	display: inline-block;
+	position: relative;
+	padding: 1em 4em;
+  
+	background-color: #4CC713;
+	color: white;
+  
+	font-family: sans-serif;
+	text-decoration: underline;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+.pdfDownload:hover {
+	background-color: #333;
+	color: white;
+}
+
 
 #headerright {
 	position: relative;
 	float:right;
 }
 
-#contactinfo {
-	float: left;
-}
 
 #contenttext {
 	padding-top: 1em;
@@ -104,10 +125,19 @@ a:active {
 #contentright {
 	position: absolute;
 	padding-top: 3.2em;
-	align-content: center;
+	align-content: left;
 	text-align: center;
 	height: 100%;
 	width: 50%;
+	right:0;
+	top:0;
+}
+
+#contactinfo {
+	position: absolute;
+	padding-top: 1.5em;
+	align-content: left;
+	width: 35%;
 	right:0;
 	top:0;
 }
