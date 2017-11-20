@@ -1,35 +1,15 @@
 
-<<<<<<< HEAD
-=======
 
->>>>>>> master
 body{
 	position: absolute;
 	width: 100%;
 	height: 100%;
-<<<<<<< HEAD
-	background-color: #dee4ed;
-}
-
-ul {
-	text-decoration: none;
-	//text-align: right;
-	display: inline-flex;
-	list-style-type: none;
-	font-size: 150%;
-	width: 100%;
-}
-
-li {
-	width: 30%;
-=======
 	background-color: #d8dfea; /*#dee4ed*/
 }
 
 p {
 	margin-left: 2em;
 	margin-right: 2em;
->>>>>>> master
 }
 
 h1 {
@@ -65,15 +45,6 @@ a:active {
 	left: 0;
 	top: 0;
 	z-index: 1;
-<<<<<<< HEAD
-	box-shadow: 10px 10px 5px #888888;
-}
-
-
-#header ul a:hover {
-	text-decoration:underline;
-	
-=======
 	box-shadow: 0em 1em 1em #888888;
 
 }
@@ -99,7 +70,6 @@ a:active {
 	text-decoration: underline;
 	font-size: 1.2em;
 	text-align: center;
->>>>>>> master
 }
 
 .buttonDownload:hover {
@@ -113,15 +83,6 @@ a:active {
 	float:right;
 }
 
-<<<<<<< HEAD
-.contentbilde img{
-	height: 100%;
-	width: 100%;
-	padding-right: 20%;
-	border-radius: 40px;
-}
-=======
->>>>>>> master
 
 #contenttext {
 	padding-top: 1em;
@@ -139,14 +100,6 @@ a:active {
 	align-content: center;
 	text-align: center;
 	height: 100%;
-<<<<<<< HEAD
-	margin: -110% 5% 0 0;
-	border-radius: 20px;
-}
-
-#header a img {
-	width: 50%;
-=======
 	width: 50%;
 	right:0;
 	top:0;
@@ -194,7 +147,6 @@ a:active {
     html, link {
         
     }
->>>>>>> master
 }
 
 span {
