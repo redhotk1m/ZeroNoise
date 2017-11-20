@@ -87,6 +87,9 @@ a:active {
 	float:right;
 }
 
+#contactinfo {
+	float: left;
+}
 
 #contenttext {
 	padding-top: 1em;
