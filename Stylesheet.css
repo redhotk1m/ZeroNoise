@@ -24,8 +24,7 @@ h1 {
 	margin-left: 1em;
 	margin-right: 2em;
 }
-
-a {
+.headerwrapper a {
 
 	text-decoration: none;
 	line-height: 150%;
@@ -33,7 +32,7 @@ a {
 	font-size:1.2em;
 }
 
-a:active {
+.headerwrapper a:active {
 	color: black;
 }
 
@@ -65,7 +64,7 @@ a:active {
 	background-color: white; /*#eaeff7*/
 }
 
-.buttonDownload {
+.buttonDownload a {
 	box-shadow: silver 0em 0em 0.15em 0.15em;
 	display: inline-block;
 	position: relative;
@@ -81,7 +80,6 @@ a:active {
 }
 
 .buttonDownload:hover {
-	background-color: #333;
 	color: white;
 }
 
@@ -186,24 +184,22 @@ a:active {
     }
 }
 
-span {
-	display: none;
-	opacity: 0;
+
+#Logo2 .tooltiptext {
+	visibility: hidden;
 	position: absolute;
-
-}
-
-#Logo2:hover span {
-	display: inline;
 	margin-left: 4.8em;
 	margin-top: 5.2em;
 	width: 5em;
 	color: black;
 	background:lightgrey;
 	font-size: 1.2em;
-	opacity: 1;
-	z-index: 1;
-	transition-delay: 10s;
+	z-index: 5;
+}
+
+#Logo2:hover .tooltiptext {
+	visibility: visible;
+	transition-delay: 1s;
 }
 
 #contentright2 img{
