@@ -20,11 +20,11 @@ h1 {
 	text-align: center;
 }
 
-#contactright {
+#contactRight {
 	margin-left: 1em;
 	margin-right: 2em;
 }
-.headerwrapper a {
+.headerWrapper a {
 
 	text-decoration: none;
 	line-height: 150%;
@@ -32,11 +32,11 @@ h1 {
 	font-size:1.2em;
 }
 
-.headerwrapper a:active {
+.headerWrapper a:active {
 	color: black;
 }
 
-.menucontainer {
+.menuContainer {
 	text-decoration: underline;
 	text-align: center;
 	font-size: 1.4em;
@@ -45,7 +45,7 @@ h1 {
 
 
 
-.headerwrapper {
+.headerWrapper {
 	position: fixed;
 	background-color: white;	/*#dee4ed*/
 	width:100%;  
@@ -56,12 +56,14 @@ h1 {
 
 }
 
-.contentwrapper {
+.contentWrapper {
 	box-shadow: darkgrey 0.9em 0.9em 0.5em 0em;
 	position: relative;
 	width:80%; 
 	margin:10em auto 5% auto;
 	background-color: white; /*#eaeff7*/
+	display: center;
+	text-align: center;
 }
 
 .buttonDownload a {
@@ -104,13 +106,13 @@ h1 {
 }
 
 
-#headerright {
+#headerRight {
 	position: relative;
 	float:right;
 }
 
 
-#contenttext {
+#contentText {
 	padding-top: 1em;
 	margin-bottom: 5%;
 	width: 40%;
@@ -120,7 +122,7 @@ h1 {
 	line-height: 200%;
 }
 
-#contentright {
+#contentRight {
 	position: absolute;
 	padding-top: 3.4em;
 	align-content: left;
@@ -131,7 +133,7 @@ h1 {
 	top:0;
 }
 
-#contactinfo {
+#contactInfo {
 	position: absolute;
 	padding-top: 1.5em;
 	align-content: left;
@@ -144,7 +146,7 @@ h1 {
 	margin: 0 0 0 0;
 }
 
-#Logo {
+#logo {
 	position: absolute;
 	z-index: 5;
 	margin-left: 4.7em;
@@ -164,17 +166,17 @@ h1 {
 }
 
 
-#solution {
+#download {
 	padding: 1.35em 2em 1.35em 2em;
 	border-right: 1px solid black;	
 	border-left: 1px solid black;
 }
 
-#problem {
+#howItWorks {
 	padding: 1.35em 2em 1.35em 2em;
 }
 
-#contact {
+#aboutUs {
 	padding: 1.35em 2em 1.35em 2em;
 }
 
@@ -185,7 +187,7 @@ h1 {
 }
 
 
-#Logo2 .tooltiptext {
+#logo2 .tooltipText {
 	visibility: hidden;
 	position: absolute;
 	margin-left: 4.8em;
@@ -197,12 +199,12 @@ h1 {
 	z-index: 5;
 }
 
-#Logo2:hover .tooltiptext {
+#logo2:hover .tooltipText {
 	visibility: visible;
 	transition-delay: 1s;
 }
 
-#contentright2 img{
+#contentRight2 img{
 	margin-top: 2em;
 	display: inline-block;
 	position: center;
