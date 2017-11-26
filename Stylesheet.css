@@ -155,12 +155,15 @@ a:focus {
 
 .placement3 {
 	margin-top: 7%;
-	margin-bottom: 7%;
+	margin-bottom: 5%;
+	line-height: 150%;
 }
 
 .placement4 {
 	margin-top: 12%;
-	margin-bottom: 12%;
+	margin-bottom: 10%;
+	line-height: 150%;
+
 }
 
 #headerRight {
@@ -183,6 +186,7 @@ a:focus {
 	margin-bottom: 5%;
 	width: 40%;
 	text-align: left;
+	border: 1px solid black;
 }
 
 #contentRight { /* HUSK MINIMUM STØRRELSE, SLIK AT BLOKKENE GÅR UNDER HVERANDRE MED ZOOM!*/
@@ -195,6 +199,7 @@ a:focus {
 	width: 40%;
 	vertical-align: top;
 	padding-left: 1%;
+	border: 1px solid black;
 }
 
 #selected {
@@ -212,6 +217,7 @@ a:focus {
 
 .padding {
 	padding: 1.35em 2em 1.35em 2em;
+	border: 1px solid black;
 }
 .paddingHowItWorks {
 	padding: 1.35em 2em 1.35em 2em;
@@ -283,6 +289,29 @@ ul {
 	list-style-type: none;
 	margin-left: 10em;
 	margin-top: 0.4em;
+}
+
+.howItWorksRight {
+	display: inline-block;
+	padding-top: 1em;
+	margin-left: 2em;
+	margin-bottom: 5%;
+	align-content: left;
+	text-align: left;
+	width: 40%;
+	vertical-align: top;
+	padding-left: 1%;
+	border: 1px solid black;
+}
+
+.howItWorksRight img {
+	width: 100%;
+	border-radius: 10%;
+	margin-bottom: 7em;
+}
+
+.howItWorksRight {
+
 }
 
 #bilde1 {
