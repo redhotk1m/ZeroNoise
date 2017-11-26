@@ -1,8 +1,4 @@
 
-a:focus {
-	outline: 4px solid black;
-}
-
 body{
 	font-family: 'Ubuntu', sans-serif, arial;
 	width: 99%;
@@ -293,9 +289,111 @@ strong {
 	font-size: 1.1em;
 }
 
-@media only screen and (max-width: 1000px) {
-    #headerLeft {
-    	width: 0%;
+@media only screen and (max-width: 900px) {
+    #logo {
+    	display: none;
     }
+    #headerRight {
+    	width: 100%;
+    	display: center;
+    	align-content: center;
+    	float: center;
+    	margin-right: 8%;
+
+
+    }
+    #headerLeft {
+    	display: none;
+    }
+ 
+    
+    #contentRight {
+   
+   display: table-row;
+   text-align: center;
+  
+
+	}
+
+	#contentRight2 img {
+		
+		width: 50%;
+		margin-left: 25%;
+
+	}
+	
+
+	.menuContainer {
+	text-decoration: underline;
+	text-align: center;
+	font-size: 1.05em;
+	padding: 0em 1em 1em 0em;
+	float:center;
 }
+
+.paddingDownload {
+	padding: 0.5em 1.35em 0.5em 1.35em;
+	border-right: none;	
+	border-left:none
+}
+
+.paddingAboutUs {
+	padding: 0.5em 1.35em 0.5em 1.35em;
+}
+
+.paddingHowItWorks {
+	padding: 0.5em 1.35em 0.5em 1.35em;
+}
+
+.headerWrapper a:active {
+	color: black;
+}
+.contentWrapper {
+	
+	margin:6em auto 5% auto;
+	
+}
+
+#logo2 .tooltipText {
+	font-size: 0.5em;
+}
+
+
+.paddingHowItWorks .tooltipText {
+	font-size: 0.5em;
+}
+
+.paddingDownload .tooltipText {
+	font-size: 0.5em;
+	margin-bottom:1em;
+	width: 8em;
+}
+
+
+.paddingAboutUs .tooltipText {
+	font-size: 0.5em;
+	
+}
+
+.buttonDownload .tooltipText{
+	font-size:0.7em;
+	margin-top: 0em;
+	margin-left: -5em;
+	width: 9em;
+}
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
