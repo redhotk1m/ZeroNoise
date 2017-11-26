@@ -182,7 +182,7 @@ a:focus {
 	margin-bottom: 5%;
 	width: 40%;
 	text-align: left;
-	border: 1px solid black;
+	
 }
 
 #contentRight { /* HUSK MINIMUM STØRRELSE, SLIK AT BLOKKENE GÅR UNDER HVERANDRE MED ZOOM!*/
@@ -195,7 +195,7 @@ a:focus {
 	width: 40%;
 	vertical-align: top;
 	padding-left: 1%;
-	border: 1px solid black;
+	
 }
 
 #selected {
@@ -213,7 +213,7 @@ a:focus {
 
 .padding {
 	padding: 1.35em 2em 1.35em 2em;
-	border: 1px solid black;
+	
 }
 .paddingHowItWorks {
 	padding: 1.35em 2em 1.35em 2em;
@@ -297,7 +297,7 @@ ul {
 	width: 40%;
 	vertical-align: top;
 	padding-left: 1%;
-	border: 1px solid black;
+	
 }
 
 .howItWorksRight img {
