@@ -162,6 +162,12 @@ a:focus {
 
 }
 
+.placement3 img {
+	width: 60%;
+	margin-bottom: 2em;
+}
+
+
 #headerRight {
 	position: relative;
 	width: 83%;
@@ -229,8 +235,9 @@ a:focus {
 
 #logo2 .tooltipText {
 	margin-left:-7em;
-	margin-top: 5.2em;
+	margin-top: 6em;
 	font-size: 1.2em;
+	object-position: absolute;
 }
 
 #logo2:hover .tooltipText {
@@ -319,7 +326,93 @@ strong {
 }
 
 @media only screen and (max-width: 900px) {
-    #logo {
+  
+	
+
+	.menuContainer {
+		text-decoration: underline;
+		text-align: center;
+		font-size: 1.05em;
+		padding: 0em 1em 1em 0em;
+		float:center;
+	
+	}
+
+	.paddingDownload {
+		padding: 0.5em 1.35em 0.5em 1.35em;
+		border-right: none;	
+		border-left:none
+	
+	}
+
+	.paddingAboutUs {
+		padding: 0.5em 1.35em 0.5em 1.35em;
+	
+	}
+
+	.paddingHowItWorks {
+		padding: 0.5em 1.35em 0.5em 1.35em;
+	
+	}
+
+	.headerWrapper a:active {
+		color: black;
+	}
+	.contentWrapper {
+		margin:6em auto 5% auto;
+	
+	}
+
+	
+	.paddingHowItWorks .tooltipText {
+		font-size: 0.5em;
+
+	}
+
+	.paddingDownload .tooltipText {
+		font-size: 0.5em;
+		margin-bottom:1em;
+		width: 8em;
+
+	}
+
+
+	.paddingAboutUs .tooltipText {
+		font-size: 0.5em;
+	
+	}
+
+	.buttonDownload .tooltipText {
+		font-size:0.7em;
+		margin-top: 0em;
+		margin-left: -5em;
+		width: 9em;
+	}
+
+
+	.howItWorksRight {
+		display: table-row;
+		width: 100%;
+		
+	
+	}
+
+	.howItWorksRight img {
+		width: 70%;
+		margin-left: 15%;
+		margin-bottom: 3em;
+
+	}
+
+
+	.buttonDownload{
+		width: 70%;
+		margin-left: 25%;
+		margin-top: 0em;
+	
+	}
+
+	#logo {
     	display: none;
     }
     #headerRight {
@@ -338,8 +431,9 @@ strong {
     
     #contentRight {
    
-   display: table-row;
-   text-align: center;
+   		display: table-row;
+   		text-align: center;
+
   
 
 	}
@@ -347,69 +441,16 @@ strong {
 	#contentRight2 img {
 		
 		width: 50%;
-		margin-left: 25%;
+		margin-left: 30%;
+		margin-bottom: 5%;
+	}
+
+	#logo2 .tooltipText {
+		font-size: 0.5em;
 
 	}
-	
-
-	.menuContainer {
-	text-decoration: underline;
-	text-align: center;
-	font-size: 1.05em;
-	padding: 0em 1em 1em 0em;
-	float:center;
-}
-
-.paddingDownload {
-	padding: 0.5em 1.35em 0.5em 1.35em;
-	border-right: none;	
-	border-left:none
-}
-
-.paddingAboutUs {
-	padding: 0.5em 1.35em 0.5em 1.35em;
-}
-
-.paddingHowItWorks {
-	padding: 0.5em 1.35em 0.5em 1.35em;
-}
-
-.headerWrapper a:active {
-	color: black;
-}
-.contentWrapper {
-	
-	margin:6em auto 5% auto;
-	
-}
-
-#logo2 .tooltipText {
-	font-size: 0.5em;
-}
 
 
-.paddingHowItWorks .tooltipText {
-	font-size: 0.5em;
-}
-
-.paddingDownload .tooltipText {
-	font-size: 0.5em;
-	margin-bottom:1em;
-	width: 8em;
-}
-
-
-.paddingAboutUs .tooltipText {
-	font-size: 0.5em;
-	
-}
-
-.buttonDownload .tooltipText{
-	font-size:0.7em;
-	margin-top: 0em;
-	margin-left: -5em;
-	width: 9em;
-}
 
 	
 }
