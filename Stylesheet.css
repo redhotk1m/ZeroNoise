@@ -3,7 +3,7 @@ body{
 	font-family: 'Ubuntu', sans-serif, arial;
 	width: 99%;
 	height: 99%;
-	background-color: #d8dfea;
+	background-color: rgb(216, 223, 234);
 }
 
 p {
@@ -18,17 +18,17 @@ a:focus {
 
 	text-decoration: none;
 	line-height: 150%;
-	color: #405958;
+	color:  rgb(64, 89, 88);
 	font-size:1.2em;
 }
 
 .headerWrapper a:active {
-	color: black;
+	color:  rgb(0, 0, 0);
 }
 
 .headerWrapper {
 	position: fixed;
-	background-color: white;	/*#dee4ed*/
+	background-color: rgb(255, 255, 255);	/*#dee4ed*/
 	width:100%;  
 	left: 0;
 	top: 0;
@@ -45,23 +45,23 @@ a:focus {
 }
 
 .contentWrapper {
-	box-shadow: darkgrey 0.9em 0.9em 0.5em 0em;
+	box-shadow:  rgb(169, 169, 169) 0.9em 0.9em 0.5em 0em;
 	position: relative;
 	width:80%; 
 	margin:10em auto 5% auto;
-	background-color: white;
+	background-color: rgb(255, 255, 255);
 	display: center;
 	text-align: center;
 }
 
 .buttonDownload a {
-	box-shadow: silver 0em 0em 0.15em 0.15em;
+	box-shadow:  rgb(192, 192, 192) 0em 0em 0.15em 0.15em;
 	display: inline-block;
 	position: relative;
 	padding: 1em 4em;
   
-	background-color: #4CC713;
-	color: white;
+	background-color: 	rgb(76, 199, 19);
+	color: rgb(255, 255, 255);
   
 	font-family: sans-serif;
 	text-decoration: underline;
@@ -70,7 +70,7 @@ a:focus {
 }
 
 .buttonDownload:hover a {
-	background-color: green;
+	background-color: 	rgb(0, 128, 0);
 }
 
 .buttonDownload .tooltipText{
@@ -90,7 +90,8 @@ a:focus {
 	padding: 1em 4em;
   
 	background-color: #4CC713;
-	color: white;
+	color: rgb(255, 255, 255)
+;
   
 	font-family: sans-serif;
 	text-decoration: underline;
@@ -99,8 +100,8 @@ a:focus {
 }
 
 .pdfDownload:hover {
-	background-color: #333;
-	color: white;
+	background-color: 	rgb(51, 51, 51);
+	color: rgb(255, 255, 255);
 }
 
 .tooltipText {
@@ -108,8 +109,8 @@ a:focus {
 	visibility: hidden;
 	position: absolute;
 	width: 6em;
-	color: black;
-	background:lightgrey;
+	color:  rgb(0, 0, 0);
+	background: rgb(211, 211, 211);
 	font-size: 0.7em;
 	line-height: 1;
 	transition-delay: 0.5s;
@@ -205,7 +206,7 @@ a:focus {
 }
 
 #selected {
-	background-color: lightgrey;
+	background-color:  rgb(211, 211, 211);
 }
 
 #logo {
@@ -356,7 +357,7 @@ strong {
 	}
 
 	.headerWrapper a:active {
-		color: black;
+		color:  rgb(0, 0, 0);
 	}
 	.contentWrapper {
 		margin:6em auto 5% auto;
