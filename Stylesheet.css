@@ -121,7 +121,7 @@ a:focus {
 }
 
 .contactList {
-	border-radius: 5em;
+	border-radius: 100%;
 	width: 30%;
 }
 
