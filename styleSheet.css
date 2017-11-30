@@ -23,6 +23,15 @@ p {
 	font-size: 1.14em;
 }
 
+ol {
+	font-family: 'Ubuntu', sans-serif, arial;
+}
+
+li {
+	max-width: 80%;
+
+}
+
 a:focus {
 	outline: 4px solid black;
 }
@@ -134,7 +143,7 @@ a:focus {
 }
 
 .contactList {
-	border-radius: 5em;
+	border-radius: 100%;
 	width: 30%;
 }
 
