@@ -352,6 +352,7 @@ a:focus {
 }
 
 
+
 #contentRight ul {
 	display: block;
 	margin-left:30%;
@@ -540,6 +541,7 @@ strong {
 
 	#contentLeft {
 		display: inline-block;
+
 		width: 90%;
 		padding-left: 2%;
 	}
@@ -558,6 +560,8 @@ strong {
 	#buttonDownload {
 		display: none;
 	}
+
+
 
 	.contentWrapper #buttonDownloadPhone {
 		display: inline;
