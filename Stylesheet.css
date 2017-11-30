@@ -6,6 +6,19 @@ body{
 	background-color: #d8dfea;
 }
 
+h1 {
+
+}
+
+h2 {
+	font-size: 1.6em;
+
+}
+
+h3 {
+	font-size: 1.3em;
+}
+
 p {
 	font-size: 1.14em;
 }
