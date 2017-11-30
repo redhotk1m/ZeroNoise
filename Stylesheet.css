@@ -16,6 +16,7 @@ h2 {
 }
 
 h3 {
+	color: #49787f;
 	font-size: 1.3em;
 }
 
@@ -66,19 +67,27 @@ a:focus {
 	text-align: center;
 }
 
+.buttonDownload {
+	width: 13.8em;
+	text-align: center;
+	margin: 0 auto;
+}
+
 .buttonDownload a {
 	box-shadow: silver 0em 0em 0.15em 0.15em;
 	display: inline-block;
 	position: relative;
-	padding: 1em 4em;
-  
+	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-right: 1em;
+	padding-left: 1em;
+  	text-align: center;
 	background-color: #4CC713;
 	color: white;
   
 	font-family: sans-serif;
 	text-decoration: underline;
 	font-size: 1.2em;
-	text-align: center;
 }
 
 .buttonDownload:hover a {
@@ -87,7 +96,7 @@ a:focus {
 
 .buttonDownload .tooltipText{
 	font-size:1.2em;
-	margin-left: -14em;
+	margin-left: -10.6em;
 	margin-top: 3.5em;
 	width: 10em;
 }
@@ -139,11 +148,12 @@ a:focus {
 }
 
 .tips {
-	width: 50%;
-	text-align: left;
-	margin-left: 26%;
-	margin-top: 3%;
+	margin-right: 2em;
+	display: inline-block;
+	padding-top: 1em;
 	padding-bottom: 5%;
+	width: 40%;
+	text-align: left;
 }
 
 .center {
@@ -197,7 +207,7 @@ a:focus {
 	margin-right: 2em;
 	display: inline-block;
 	padding-top: 1em;
-	margin-bottom: 5%;
+	padding-bottom: 5%;
 	width: 40%;
 	text-align: left;
 	
@@ -319,8 +329,18 @@ a:focus {
 }
 
 #downloadRight {
+	text-align: center;
+	width: 100%;
 	padding-top: 4.5em;
 }
+
+#buttonDownload {
+		display: visible;
+	}
+
+#buttonDownloadPhone {
+		display: none;
+	}
 
 
 #contentRight ul {
@@ -450,8 +470,8 @@ strong {
 
 	.buttonDownload .tooltipText {
 		font-size:0.7em;
-		margin-top: 0em;
-		margin-left: -4.9em;
+		margin-top: 5.5em;
+		margin-left: -14em;
 		width: 9em;
 	}
 
@@ -468,14 +488,6 @@ strong {
 		margin-left: 15%;
 		margin-bottom: 3em;
 
-	}
-
-
-	.buttonDownload{
-		width: 70%;
-		margin-left: 25%;
-		margin-top: 0em;
-	
 	}
     
     #contentRight {
@@ -502,11 +514,33 @@ strong {
 	}
 
 	#contentLeft {
-		padding-left: 1em;
-		display: block;
+		display: inline-block;
 		width: 90%;
+		padding-left: 2%;
 	}
 
+	.tips {
+		border: 1px solid black;
+		margin-right: 2em;
+		padding-top: 1em;
+		padding-bottom: 5%;
+		text-align: left;
+		display: inline-block;
+		width: 90%;
+		padding-left: 2%;
+	}
+
+	#buttonDownload {
+		display: none;
+	}
+
+	.contentWrapper #buttonDownloadPhone {
+		display: inline;
+	}
+
+	ul {
+		padding-bottom: 5%;
+	}
 
 html {
 	width: 99%;
