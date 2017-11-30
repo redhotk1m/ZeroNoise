@@ -348,7 +348,7 @@ a:focus {
 
 .mobileShow img {
 	border-radius: 5%;
-	width: 80%;
+	width: 70%;
 }
 
 
@@ -397,6 +397,22 @@ strong {
 
 	.mobileShow {
 		display: initial;
+	}
+
+	.mobileShow img {
+		top: em;
+	}
+
+	#contentRight img {
+		display: none;
+	}
+
+	#contentRight2 {
+		display: none;
+	}
+
+	#howItWorksImg {
+		display: none;
 	}
 
 	.headerWrapper {
