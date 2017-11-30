@@ -342,6 +342,15 @@ a:focus {
 		display: none;
 	}
 
+.mobileShow {
+	display: none;
+}
+
+.mobileShow img {
+	border-radius: 5%;
+	width: 80%;
+}
+
 
 #contentRight ul {
 	display: block;
@@ -385,6 +394,10 @@ strong {
 
 
 @media only screen and (max-width: 900px) {
+
+	.mobileShow {
+		display: initial;
+	}
 
 	.headerWrapper {
 		text-align: center;
