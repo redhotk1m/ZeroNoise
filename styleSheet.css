@@ -98,32 +98,12 @@ a:focus {
 
 .buttonDownload .tooltipText{
 	font-size:1em;
-	margin-left: -9.5em;
-	margin-top: 2.4em;
+	margin-left: -9.8em;
+	margin-top: 2.2em;
 	width: 10em;
 }
 .buttonDownload:hover .tooltipText {
 	visibility: visible;
-}
-
-.pdfDownload {
-	box-shadow: silver 0em 0em 0.15em 0.15em;
-	display: inline-block;
-	position: relative;
-	padding: 1em 4em;
-  
-	background-color: #4CC713;
-	color: white;
-  
-	font-family: sans-serif;
-	text-decoration: underline;
-	font-size: 1.2em;
-	text-align: center;
-}
-
-.pdfDownload:hover {
-	background-color: #333;
-	color: white;
 }
 
 .tooltipText {
@@ -272,8 +252,8 @@ a:focus {
 
 #logo2 .tooltipText {
 	margin-left:-6.5em;
-	margin-top: 4em;
-	font-size: 1.5em;
+	margin-top: 4.3em;
+	font-size: 1.15em;
 }
 
 #contentRight .howItWorksImg {
@@ -500,8 +480,8 @@ strong {
 
 	.buttonDownload .tooltipText {
 		font-size:0.7em;
-		margin-top: 5.5em;
-		margin-left: -14em;
+		margin-top: 3em;
+		margin-left: -12em;
 	}
 
 
@@ -582,7 +562,34 @@ html {
 }
 
 
+@media only screen and (max-width: 500px) {
+	.menuContainer a {
+		font-size: 0.9em;
+	}
 
+	.paddingDownload {
+		padding: 1.75em 3% 1.75em 3%;
+		border-right: 1px solid black;	
+		border-left:none
+	
+	}
+
+	.paddingAboutUs {
+		padding: 1.75em 3% 1.75em 3%;
+	
+	}
+
+	.paddingHome {
+		border-right: 1px solid black;
+		padding: 1.75em 3% 1.75em 3%;
+	
+	}
+
+	.paddingHowItWorks {
+		border-right: 1px solid black;
+		padding: 1.75em 3% 1.75em 3%;	
+	}
+}
 
 
 
