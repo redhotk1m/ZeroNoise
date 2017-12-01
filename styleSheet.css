@@ -141,7 +141,7 @@ a:focus {
 }
 
 .contactList {
-	border-radius: 5em;
+	border-radius: 100%;
 	width: 30%;
 }
 
@@ -340,6 +340,15 @@ a:focus {
 		display: none;
 	}
 
+.mobileShow {
+	display: none;
+}
+
+.mobileShow img {
+	border-radius: 5%;
+	width: 70%;
+}
+
 
 #contentRight ul {
 	display: block;
@@ -383,6 +392,22 @@ strong {
 
 
 @media only screen and (max-width: 900px) {
+
+	.mobileShow {
+		display: initial;
+	}
+
+	.mobileShow img {
+		margin-top: 2em;
+	}
+
+	#contentRight2 {
+		display: none;
+	}
+
+	#howItWorksImg {
+		display: none;
+	}
 
 	.headerWrapper {
 		text-align: center;
@@ -511,6 +536,7 @@ strong {
 
 	#contentLeft {
 		display: inline-block;
+
 		width: 90%;
 		padding-left: 2%;
 	}
@@ -529,6 +555,7 @@ strong {
 	#buttonDownload {
 		display: none;
 	}
+
 
 	.contentWrapper #buttonDownloadPhone {
 		display: inline;

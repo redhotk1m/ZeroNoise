@@ -6,9 +6,6 @@ body{
 	background-color: #d8dfea;
 }
 
-h1 {
-
-}
 
 h2 {
 	font-size: 1.6em;
@@ -21,7 +18,7 @@ h3 {
 }
 
 p {
-	font-size: 1.14em;
+	font-size: 1.2em;
 }
 
 a:focus {
@@ -95,25 +92,44 @@ a:focus {
 }
 
 .buttonDownload .tooltipText{
-	font-size:1.2em;
-	margin-left: -10.6em;
-	margin-top: 3.5em;
+	font-size:1em;
+	margin-left: -9.5em;
+	margin-top: 2.4em;
 	width: 10em;
 }
 .buttonDownload:hover .tooltipText {
 	visibility: visible;
 }
 
+.pdfDownload {
+	box-shadow: silver 0em 0em 0.15em 0.15em;
+	display: inline-block;
+	position: relative;
+	padding: 1em 4em;
+  
+	background-color: #4CC713;
+	color: white;
+  
+	font-family: sans-serif;
+	text-decoration: underline;
+	font-size: 1.2em;
+	text-align: center;
+}
 
+.pdfDownload:hover {
+	background-color: #333;
+	color: white;
+}
 
 .tooltipText {
+	padding:0.5em 0.2em 0.5em 0.2em;
 	text-align: center;
 	visibility: hidden;
 	position: absolute;
 	width: 6em;
 	color: black;
-	background:lightgrey;
-	font-size: 0.7em;
+	background:#a6a6a6;
+	font-size: 0.8em;
 	line-height: 1;
 	transition-delay: 0.5s;
 }
@@ -125,7 +141,7 @@ a:focus {
 }
 
 .contactList {
-	border-radius: 5em;
+	border-radius: 100%;
 	width: 30%;
 }
 
@@ -250,9 +266,9 @@ a:focus {
 }
 
 #logo2 .tooltipText {
-	margin-left:-7.5em;
-	margin-top: 5em;
-	font-size: 1.2em;
+	margin-left:-6.5em;
+	margin-top: 4em;
+	font-size: 1.5em;
 }
 
 #contentRight .howItWorksImg {
@@ -266,7 +282,7 @@ a:focus {
 }
 
 .paddingHowItWorks .tooltipText {
-	margin-left: -7em;
+	margin-left: -6.5em;
 	margin-top: 3em;
 }
 
@@ -275,7 +291,7 @@ a:focus {
 }
 
 .paddingHome .tooltipText {
-	margin-left: -7em;
+	margin-left: -6.5em;
 	margin-top: 3em;
 }
 
@@ -284,7 +300,7 @@ a:focus {
 }
 
 .paddingDownload .tooltipText {
-	margin-left: -7em;
+	margin-left: -6.5em;
 	margin-top: 3em;
 	width: 8em;
 }
@@ -294,7 +310,7 @@ a:focus {
 }
 
 .paddingAboutUs .tooltipText {
-	margin-left: -5.5em;
+	margin-left: -5em;
 	margin-top: 3em;
 }
 
@@ -323,6 +339,15 @@ a:focus {
 #buttonDownloadPhone {
 		display: none;
 	}
+
+.mobileShow {
+	display: none;
+}
+
+.mobileShow img {
+	border-radius: 5%;
+	width: 70%;
+}
 
 
 #contentRight ul {
@@ -368,6 +393,22 @@ strong {
 
 @media only screen and (max-width: 900px) {
 
+	.mobileShow {
+		display: initial;
+	}
+
+	.mobileShow img {
+		margin-top: 2em;
+	}
+
+	#contentRight2 {
+		display: none;
+	}
+
+	#howItWorksImg {
+		display: none;
+	}
+
 	.headerWrapper {
 		text-align: center;
 		width: 100%;
@@ -379,7 +420,6 @@ strong {
 		width: 100%;
 		font-size: 0.8em;
 	}
-
 
 	#headerRight {
 		width: 100%;
@@ -427,28 +467,25 @@ strong {
 	.contentWrapper {
 		width: 95%;
 		margin:6em auto 5% auto;
-		box-shadow: none;	
+		box-shadow: none;
 	}
 
 	
 	.paddingHowItWorks .tooltipText {
-		font-size: 0.6em;
-		margin-left: -8em;
+		font-size: 1em;
+		margin-left: -6em;
 
 	}
 
 	.paddingDownload .tooltipText {
-		font-size: 0.6em;
-		margin-left: -8em;
-		margin-bottom:1em;
-		width: 8em;
-
+		font-size: 1em;
+		margin-left: -6.3em;
 	}
 
 
 	.paddingAboutUs .tooltipText {
-		font-size: 0.6em;
-		margin-left: -6.3em;
+		font-size: 1em;
+		margin-left: -5.1em;
 	
 	}
 
@@ -456,7 +493,6 @@ strong {
 		font-size:0.7em;
 		margin-top: 5.5em;
 		margin-left: -14em;
-		width: 9em;
 	}
 
 
@@ -488,17 +524,19 @@ strong {
 	}
 
 	#homeIdSelected .tooltipText {
-		margin-left: -5.3em;
-		font-size: 0.6em;
+		margin-left: -4.2em;
+		font-size: 1em;
+
 	}
 
 	#homeId .tooltipText {
-		margin-left: -5.3em;
-		font-size: 0.6em;
+		margin-left: -4.2em;
+		font-size: 1em;
 	}
 
 	#contentLeft {
 		display: inline-block;
+
 		width: 90%;
 		padding-left: 2%;
 	}
@@ -518,6 +556,7 @@ strong {
 		display: none;
 	}
 
+
 	.contentWrapper #buttonDownloadPhone {
 		display: inline;
 	}
@@ -526,9 +565,9 @@ strong {
 		padding-bottom: 5%;
 	}
 
-	html {
-	width: 99%;	
-	}
+html {
+	width: 99%;
+}
 
 	
 }
