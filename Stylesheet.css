@@ -46,7 +46,7 @@ a:focus {
 	left: 0;
 	top: 0;
 	z-index: 1;
-	box-shadow: 0em 1em 1em #888888;
+	box-shadow: 0px 25px 25px #888888;
 }
 
 .menuContainer {
@@ -58,7 +58,7 @@ a:focus {
 }
 
 .contentWrapper {
-	box-shadow: darkgrey 0.9em 0.9em 0.5em 0em;
+	box-shadow: darkgrey 20px 10px 10px 0px;
 	position: relative;
 	width:80%; 
 	margin:10em auto 5% auto;
@@ -104,25 +104,7 @@ a:focus {
 	visibility: visible;
 }
 
-.pdfDownload {
-	box-shadow: silver 0em 0em 0.15em 0.15em;
-	display: inline-block;
-	position: relative;
-	padding: 1em 4em;
-  
-	background-color: #4CC713;
-	color: white;
-  
-	font-family: sans-serif;
-	text-decoration: underline;
-	font-size: 1.2em;
-	text-align: center;
-}
 
-.pdfDownload:hover {
-	background-color: #333;
-	color: white;
-}
 
 .tooltipText {
 	text-align: center;
@@ -389,7 +371,7 @@ strong {
 	.headerWrapper {
 		text-align: center;
 		width: 100%;
-		box-shadow:0em 0.5em 0.5em #888888
+		box-shadow:0px 10px 10px #888888
 	}
 	.menuContainer {
 		height: auto;
@@ -397,6 +379,7 @@ strong {
 		width: 100%;
 		font-size: 0.8em;
 	}
+
 
 	#headerRight {
 		width: 100%;
@@ -443,7 +426,8 @@ strong {
 	}
 	.contentWrapper {
 		width: 95%;
-		margin:6em auto 5% auto
+		margin:6em auto 5% auto;
+		box-shadow: none;	
 	}
 
 	
@@ -542,9 +526,9 @@ strong {
 		padding-bottom: 5%;
 	}
 
-html {
-	width: 99%;
-}
+	html {
+	width: 99%;	
+	}
 
 	
 }
