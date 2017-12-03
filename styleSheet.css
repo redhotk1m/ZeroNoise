@@ -20,6 +20,9 @@ h3 {
 p {
 	font-size: 1.2em;
 }
+strong {
+	font-size: 1.1em;
+}
 
 a:focus {
 	outline: 4px solid black;
@@ -127,14 +130,19 @@ a:focus {
 
 .contactList {
 	border-radius: 100%;
-	width: 30%;
+	width: 40%;
 }
 
-.tips {
+.lineSpacing {
+	border-top: 1px solid black;
+	margin-top: 1em;
+}
+
+
+.tutorial {
 	margin-right: 2em;
 	display: inline-block;
-	padding-top: 1em;
-	padding-bottom: 5%;
+	margin-bottom: 5%;
 	width: 40%;
 	text-align: left;
 }
@@ -155,8 +163,8 @@ a:focus {
 }
 
 .placement3 {
-	margin-top: 7%;
-	margin-bottom: 5%;
+	margin-top: 5%;
+	margin-bottom: 10%;
 	line-height: 150%;
 }
 
@@ -165,6 +173,10 @@ a:focus {
 	margin-bottom: 10%;
 	line-height: 150%;
 
+}
+.placement5 {
+	margin-top:5%;
+	margin-bottom: 5%;
 }
 
 .placement3 img {
@@ -196,7 +208,7 @@ a:focus {
 	
 }
 
-#contentRight { /* HUSK MINIMUM STØRRELSE, SLIK AT BLOKKENE GÅR UNDER HVERANDRE MED ZOOM!*/
+#contentRight { 
 	display: inline-block;
 	padding-top: 1em;
 	margin-left: 2em;
@@ -234,7 +246,7 @@ a:focus {
 }
 
 .padding {
-	padding: 1.35em 2em 1.35em 2em;
+	padding: 1.35em 2em 0.5em 2em;
 	
 }
 .paddingHowItWorks {
@@ -336,8 +348,9 @@ a:focus {
 
 
 #contentRight ul {
+	font-size: 1.1em;
 	display: block;
-	margin-left:30%;
+	margin-left:15%;
 	text-align: left;
 	list-style-type: none;
 	width: 60%;
@@ -363,31 +376,34 @@ a:focus {
 	margin-bottom: 7em;
 }
 
-.howItWorksRight {
 
-}
 
-#bilde1 {
-
-}
-
-strong {
-	font-size: 1.1em;
-}
+#contentLeft ul {
+		font-size: 1.2em;
+	}
 
 
 @media only screen and (max-width: 900px) {
+
+	p {
+		margin-bottom: 10%;
+	}
 
 	.mobileShow {
 		display: initial;
 	}
 
 	.mobileShow img {
-		margin-top: 2em;
+		margin-top: 1em;
 		width: auto;
 		max-width: 40%;
 		min-width: 30%;
 		height: auto;
+	}
+
+	.buttonDownload {
+		margin-bottom: 4em;
+
 	}
 
 	#contentRight2 {
@@ -504,6 +520,8 @@ strong {
     	width: 90%;
     	margin-left: 0em;
     	padding-left: 1em;
+    	margin-bottom: -2em;
+    	
 	}
 
 	#contentRight2 img {
@@ -525,15 +543,14 @@ strong {
 
 	#contentLeft {
 		display: inline-block;
-
 		width: 90%;
 		padding-left: 2%;
+		margin-bottom: -5em;
 	}
 
-	.tips {
-		border: 1px solid black;
+	.tutorial {
 		margin-right: 2em;
-		padding-top: 1em;
+		margin-top: -3em;
 		padding-bottom: 5%;
 		text-align: left;
 		display: inline-block;
@@ -550,9 +567,38 @@ strong {
 		display: inline;
 	}
 
+
+	.padding {
+		padding: 0.5em 2em 0.5em 2em;
+	
+	}
+
 	ul {
 		padding-bottom: 5%;
 	}
+
+	.placement3 {
+	margin-top: 5%;
+	margin-bottom: 0%;
+
+	
+}
+
+#contentRight ul {
+	margin-left: 30%;
+
+}
+
+.placement5 {
+	margin-top: 0%;
+	margin-bottom: 0%;
+}
+
+.placement2 {
+	margin-top: 0%;
+	margin-bottom: 0%;
+
+}
 
 html {
 	width: 99%;
@@ -589,6 +635,10 @@ html {
 		border-right: 1px solid black;
 		padding: 1.75em 3% 1.75em 3%;	
 	}
+
+	#contentRight ul {
+	margin-left: 20%;
+}
 }
 
 
