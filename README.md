@@ -1,5 +1,5 @@
 # ZeroNoise
-First website assignment first semester of bachelor's degree
+First website assignment first semester of my bachelor's degree
 # What i learned
 - HTML
 - CSS
