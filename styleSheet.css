@@ -28,15 +28,64 @@ a:focus {
 	outline: 4px solid black;
 }
 
-.headerWrapper a {
-	text-decoration: none;
-	line-height: 150%;
-	color: #405958;
-	font-size:1.2em;
+.buttonDownload {
+	position: relative;
+	font-family: sans-serif;
+	text-decoration: underline;
+	font-size: 1.2em;
 }
 
-.headerWrapper a:active {
-	color: black;
+.buttonDownload a {
+	box-shadow: silver 0em 0em 0.15em 0.15em;
+	display: inline-block;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-right: 1em;
+	padding-left: 1em;
+	background-color: #4CC713;
+	color: white;
+	font-size: 1.2em;
+}
+
+
+.buttonDownload a:hover{
+	background-color: green;
+}
+
+.buttonDownload .tooltipText{
+	font-size:1em;
+	margin-left: -9.8em;
+	margin-top: 2.2em;
+	width: 10em;
+}
+
+.buttonDownload a:hover .tooltipText {
+	visibility: visible;
+}
+
+.center {
+	text-align: center;
+}
+
+.contactList {
+	border-radius: 100%;
+	width: 40%;
+}
+
+.contentWrapper {
+	box-shadow: darkgrey 20px 10px 10px 0px;
+	position: relative;
+	width:80%; 
+	margin:10em auto 5% auto;
+	background-color: white;
+	display: center;
+	text-align: center;
+}
+
+.headerLeft {
+	width: 20%;
+	display: inline-block;
+	text-align: right;
 }
 
 .headerWrapper {
@@ -54,6 +103,46 @@ a:focus {
 	box-shadow: 0px 25px 25px #888888;
 }
 
+.headerWrapper a {
+	text-decoration: none;
+	line-height: 150%;
+	color: #405958;
+	font-size:1.2em;
+}
+
+.headerWrapper a:active {
+	color: black;
+}
+
+.howItWorksImg {
+	width: 100%;
+	border-radius: 10%;
+	margin-bottom: 10em;
+}
+
+.howItWorksRight {
+	display: inline-block;
+	padding-top: 1em;
+	margin-left: 2em;
+	margin-bottom: 5%;
+	align-content: left;
+	text-align: left;
+	width: 40%;
+	vertical-align: top;
+	padding-left: 1%;
+}
+
+.howItWorksRight img {
+	width: 100%;
+	border-radius: 10%;
+	margin-bottom: 7em;
+}
+
+.lineSpacing {
+	border-top: 1px solid black;
+	margin-top: 1em;
+}
+
 .menuContainer {
 	text-decoration: underline;
 	text-align: center;
@@ -62,93 +151,68 @@ a:focus {
 	float:right;
 }
 
-.contentWrapper {
-	box-shadow: darkgrey 20px 10px 10px 0px;
-	position: relative;
-	width:80%; 
-	margin:10em auto 5% auto;
-	background-color: white;
-	display: center;
-	text-align: center;
+.mobileShow {
+	display: none;
 }
 
-.buttonDownload {
-	width: 13.8em;
-	text-align: center;
-	margin: 0 auto;
+.mobileShow img {
+	border-radius: 5%;
+	width: 70%;
 }
 
-.buttonDownload a {
-	box-shadow: silver 0em 0em 0.15em 0.15em;
-	display: inline-block;
-	position: relative;
-	padding-top: 1em;
-	padding-bottom: 1em;
-	padding-right: 1em;
-	padding-left: 1em;
-  	text-align: center;
-	background-color: #4CC713;
-	color: white;
-  
-	font-family: sans-serif;
-	text-decoration: underline;
-	font-size: 1.2em;
+.padding {
+	padding: 1.35em 2em 0.5em 2em;	
 }
 
-.buttonDownload:hover a {
-	background-color: green;
+.paddingAboutUs {
+	padding: 1.35em 2em 1.35em 2em;
 }
 
-.buttonDownload .tooltipText{
-	font-size:1em;
-	margin-left: -9.8em;
-	margin-top: 2.2em;
-	width: 10em;
+.paddingAboutUs .tooltipText {
+	margin-left: -5em;
+	margin-top: 3em;
 }
-.buttonDownload:hover .tooltipText {
+
+.paddingAboutUs:hover .tooltipText{
 	visibility: visible;
 }
 
-.tooltipText {
-	padding:0.5em 0.2em 0.5em 0.2em;
-	text-align: center;
-	visibility: hidden;
-	position: absolute;
-	width: 6em;
-	color: black;
-	background:#a6a6a6;
-	font-size: 0.8em;
-	line-height: 1;
-	transition-delay: 0.5s;
+.paddingDownload {
+	padding: 1.35em 2em 1.35em 2em;
+	border-right: 1px solid black;	
+	border-left: 1px solid black;
 }
 
-.headerLeft {
-	width: 20%;
-	display: inline-block;
-	text-align: right;
+.paddingDownload .tooltipText {
+	margin-left: -6.5em;
+	margin-top: 3em;
+	width: 8em;
 }
 
-.contactList {
-	border-radius: 100%;
-	width: 40%;
+.paddingDownload:hover .tooltipText {
+	visibility: visible;
 }
 
-.lineSpacing {
-	border-top: 1px solid black;
-	margin-top: 1em;
+.paddingHome .tooltipText {
+	margin-left: -6.5em;
+	margin-top: 3em;
 }
 
-
-.tutorial {
-	margin-right: 2em;
-	display: inline-block;
-	margin-bottom: 5%;
-	width: 40%;
-	text-align: left;
+.paddingHome:hover .tooltipText {
+	visibility: visible;
 }
 
-.center {
-	text-align: center;
+.paddingHowItWorks {
+	padding: 1.35em 2em 1.35em 2em;
+}
+
+.paddingHowItWorks .tooltipText {
+	margin-left: -6.5em;
+	margin-top: 3em;
+}
+
+.paddingHowItWorks:hover .tooltipText {
+	visibility: visible;
 }
 
 .placement {
@@ -168,6 +232,11 @@ a:focus {
 	line-height: 150%;
 }
 
+.placement3 img {
+	width: 60%;
+	margin-bottom: 2em;
+}
+
 .placement4 {
 	margin-top: 12%;
 	margin-bottom: 10%;
@@ -179,18 +248,33 @@ a:focus {
 	margin-bottom: 5%;
 }
 
-.placement3 img {
-	width: 60%;
-	margin-bottom: 2em;
+.tooltipText {
+	padding:0.5em 0.2em 0.5em 0.2em;
+	text-align: center;
+	visibility: hidden;
+	position: absolute;
+	width: 6em;
+	color: black;
+	background:#a6a6a6;
+	font-size: 0.8em;
+	line-height: 1;
+	transition-delay: 0.5s;
 }
 
-
-#headerRight {
-	position: relative;
-	width: 79.5%;
+.tutorial {
+	margin-right: 2em;
 	display: inline-block;
-	float:right;
-	right: 0;
+	margin-bottom: 5%;
+	width: 40%;
+	text-align: left;
+}
+
+#buttonDownload {
+		display: visible;
+}
+
+#buttonDownloadPhone {
+		display: none;
 }
 
 #contactRight {
@@ -205,7 +289,10 @@ a:focus {
 	padding-bottom: 5%;
 	width: 40%;
 	text-align: left;
-	
+}
+
+#contentLeft ul {
+		font-size: 1.2em;
 }
 
 #contentRight { 
@@ -220,99 +307,20 @@ a:focus {
 	padding-left: 1%;
 }
 
-#howItWorksImg {
-	width: 100%;
-	border-radius: 10%;
-	margin-bottom: 7em;
-}
-
-#selected {
-	background-color: lightgrey;
-}
-#homeIdSelected {
-	display: none;
-}
-#homeId {
-	display: none;
-}
-
-#logo {
-	display: inline-block;
-	z-index: 5;
-	vertical-align: top;
-	height: 4.8em;
-	padding-top: 0.2em;
-	padding-bottom: 0.3em;
-}
-
-.padding {
-	padding: 1.35em 2em 0.5em 2em;
-	
-}
-.paddingHowItWorks {
-	padding: 1.35em 2em 1.35em 2em;
-}
-.paddingAboutUs {
-	padding: 1.35em 2em 1.35em 2em;
-}
-
-.paddingDownload {
-	padding: 1.35em 2em 1.35em 2em;
-	border-right: 1px solid black;	
-	border-left: 1px solid black;
-}
-
-#logo2 .tooltipText {
-	margin-left:-6.5em;
-	margin-top: 4.3em;
-	font-size: 1.15em;
-}
-
 #contentRight .howItWorksImg {
 	width: 100%;
 	border-radius: 5%;
 	margin-bottom: 5%;
 }
 
-#logo2:hover .tooltipText {
-	visibility: visible;
-}
-
-.paddingHowItWorks .tooltipText {
-	margin-left: -6.5em;
-	margin-top: 3em;
-}
-
-.paddingHowItWorks:hover .tooltipText {
-	visibility: visible;
-}
-
-.paddingHome .tooltipText {
-	margin-left: -6.5em;
-	margin-top: 3em;
-}
-
-.paddingHome:hover .tooltipText {
-	visibility: visible;
-}
-
-.paddingDownload .tooltipText {
-	margin-left: -6.5em;
-	margin-top: 3em;
-	width: 8em;
-}
-
-.paddingDownload:hover .tooltipText {
-	visibility: visible;
-}
-
-.paddingAboutUs .tooltipText {
-	margin-left: -5em;
-	margin-top: 3em;
-}
-
-.paddingAboutUs:hover .tooltipText{
-	visibility: visible;
+#contentRight ul {
+	font-size: 1.1em;
+	display: block;
+	margin-left:15%;
+	text-align: left;
+	list-style-type: none;
+	width: 60%;
+	margin-top: 0.4em;
 }
 
 #contentRight2 img{
@@ -329,64 +337,114 @@ a:focus {
 	padding-top: 4.5em;
 }
 
-#buttonDownload {
-		display: visible;
-	}
+#headerRight {
+	position: relative;
+	width: 79.5%;
+	display: inline-block;
+	float:right;
+	right: 0;
+}
 
-#buttonDownloadPhone {
-		display: none;
-	}
-
-.mobileShow {
+#homeId {
 	display: none;
 }
 
-.mobileShow img {
-	border-radius: 5%;
-	width: 70%;
+#homeIdSelected {
+	display: none;
 }
 
-
-#contentRight ul {
-	font-size: 1.1em;
-	display: block;
-	margin-left:15%;
-	text-align: left;
-	list-style-type: none;
-	width: 60%;
-	margin-top: 0.4em;
-}
-
-.howItWorksRight {
+#logo {
 	display: inline-block;
-	padding-top: 1em;
-	margin-left: 2em;
-	margin-bottom: 5%;
-	align-content: left;
-	text-align: left;
-	width: 40%;
+	z-index: 5;
 	vertical-align: top;
-	padding-left: 1%;
-	
+	height: 4.8em;
+	padding-top: 0.2em;
+	padding-bottom: 0.3em;
 }
 
-.howItWorksRight img {
-	width: 100%;
-	border-radius: 10%;
-	margin-bottom: 7em;
+#logo2 .tooltipText {
+	margin-left:-6.5em;
+	margin-top: 4.3em;
+	font-size: 1.15em;
 }
 
+#logo2:hover .tooltipText {
+	visibility: visible;
+}
 
-
-#contentLeft ul {
-		font-size: 1.2em;
-	}
+#selected {
+	background-color: lightgrey;
+}
 
 
 @media only screen and (max-width: 900px) {
 
+	html {
+	width: 99%;
+	}	
+
 	p {
 		margin-bottom: 10%;
+	}
+
+	ul {
+		padding-bottom: 5%;
+	}
+
+	.buttonDownload {
+		margin-bottom: 4em;
+	}
+
+	.buttonDownload .tooltipText {
+		font-size:0.7em;
+		margin-top: 3em;
+		margin-left: -12em;
+	}
+
+	.contentWrapper {
+		width: 95%;
+		margin:6em auto 5% auto;
+		box-shadow: none;
+	}
+
+	.contentWrapper #buttonDownloadPhone {
+		display: inline;
+	}
+
+	.headerLeft {
+    	display: none;
+    }
+
+	.headerWrapper {
+		text-align: center;
+		width: 100%;
+		box-shadow:0px 10px 10px #888888
+	}
+
+	.headerWrapper a:active {
+		color: black;
+	}
+
+	.howItWorksImg {
+		display: none;
+	}
+
+	.howItWorksRight {
+		display: table-row;
+		width: 99%;
+	}
+
+	.howItWorksRight img {
+		width: 70%;
+		margin-left: 15%;
+		margin-bottom: 3em;
+	}
+
+	.menuContainer {
+		height: auto;
+		padding:1.4em 0 1.4em 0em;
+		width: 100%;
+		font-size: 0.8em;
 	}
 
 	.mobileShow {
@@ -401,85 +459,23 @@ a:focus {
 		height: auto;
 	}
 
-	.buttonDownload {
-		margin-bottom: 4em;
-
+	.padding {
+		padding: 0.5em 2em 0.5em 2em;
 	}
 
-	#contentRight2 {
-		display: none;
+	.paddingAboutUs {
+		padding: 1.35em 3% 1.35em 3%;
 	}
 
-	#howItWorksImg {
-		display: none;
+	.paddingAboutUs .tooltipText {
+		font-size: 1em;
+		margin-left: -5.1em;
 	}
-
-	.headerWrapper {
-		text-align: center;
-		width: 100%;
-		box-shadow:0px 10px 10px #888888
-	}
-	.menuContainer {
-		height: auto;
-		padding:1.4em 0 1.4em 0em;
-		width: 100%;
-		font-size: 0.8em;
-	}
-
-	#headerRight {
-		width: 100%;
-    }
-
-    #homeId {
-    	display: inline;
-    }
-    #homeIdSelected {
-    	display: inline;
-    	background-color: lightgrey;
-    }
-
-    .headerLeft {
-    	display: none;
-    }
- 
 
 	.paddingDownload {
 		padding: 1.35em 3% 1.35em 3%;
 		border-right: 1px solid black;	
 		border-left:none
-	
-	}
-
-	.paddingAboutUs {
-		padding: 1.35em 3% 1.35em 3%;
-	
-	}
-
-	.paddingHome {
-		border-right: 1px solid black;
-		padding: 1.35em 3% 1.35em 3%;
-	
-	}
-
-	.paddingHowItWorks {
-		border-right: 1px solid black;
-		padding: 1.35em 3% 1.35em 3%;	
-	}
-
-	.headerWrapper a:active {
-		color: black;
-	}
-	.contentWrapper {
-		width: 95%;
-		margin:6em auto 5% auto;
-		box-shadow: none;
-	}
-
-	
-	.paddingHowItWorks .tooltipText {
-		font-size: 1em;
-		margin-left: -6em;
-
 	}
 
 	.paddingDownload .tooltipText {
@@ -487,65 +483,34 @@ a:focus {
 		margin-left: -6.3em;
 	}
 
+	.paddingHome {
+		border-right: 1px solid black;
+		padding: 1.35em 3% 1.35em 3%;
+	}
 
-	.paddingAboutUs .tooltipText {
+	.paddingHowItWorks {
+		border-right: 1px solid black;
+		padding: 1.35em 3% 1.35em 3%;	
+	}
+
+	.paddingHowItWorks .tooltipText {
 		font-size: 1em;
-		margin-left: -5.1em;
-	
+		margin-left: -6em;
 	}
 
-	.buttonDownload .tooltipText {
-		font-size:0.7em;
-		margin-top: 3em;
-		margin-left: -12em;
+	.placement2 {
+	margin-top: 0%;
+	margin-bottom: 0%;
 	}
 
-
-	.howItWorksRight {
-		display: table-row;
-		width: 99%;
-		
-	
+	.placement3 {
+	margin-top: 5%;
+	margin-bottom: 0%;	
 	}
 
-	.howItWorksRight img {
-		width: 70%;
-		margin-left: 15%;
-		margin-bottom: 3em;
-
-	}
-    
-    #contentRight {
-    	display: block;
-    	width: 90%;
-    	margin-left: 0em;
-    	padding-left: 1em;
-    	margin-bottom: -2em;
-    	
-	}
-
-	#contentRight2 img {
-		width: 50%;
-		margin-left: 30%;
-		margin-bottom: 5%;
-	}
-
-	#homeIdSelected .tooltipText {
-		margin-left: -4.2em;
-		font-size: 1em;
-
-	}
-
-	#homeId .tooltipText {
-		margin-left: -4.2em;
-		font-size: 1em;
-	}
-
-	#contentLeft {
-		display: inline-block;
-		width: 90%;
-		padding-left: 2%;
-		margin-bottom: -5em;
+	.placement5 {
+	margin-top: 0%;
+	margin-bottom: 0%;
 	}
 
 	.tutorial {
@@ -562,66 +527,74 @@ a:focus {
 		display: none;
 	}
 
-
-	.contentWrapper #buttonDownloadPhone {
-		display: inline;
+	#contentLeft {
+		display: inline-block;
+		width: 90%;
+		padding-left: 2%;
+		margin-bottom: -5em;
 	}
 
-
-	.padding {
-		padding: 0.5em 2em 0.5em 2em;
-	
+	#contentRight {
+    	display: block;
+    	width: 90%;
+    	margin-left: 0em;
+    	padding-left: 1em;
+    	margin-bottom: -2em;
 	}
 
-	ul {
-		padding-bottom: 5%;
-	}
-
-	.placement3 {
-	margin-top: 5%;
-	margin-bottom: 0%;
-
-	
-}
-
-#contentRight ul {
+	#contentRight ul {
 	margin-left: 30%;
+	}
 
-}
+	#contentRight2 {
+		display: none;
+	}
 
-.placement5 {
-	margin-top: 0%;
-	margin-bottom: 0%;
-}
+	#contentRight2 img {
+		width: 50%;
+		margin-left: 30%;
+		margin-bottom: 5%;
+	}
 
-.placement2 {
-	margin-top: 0%;
-	margin-bottom: 0%;
+	#headerRight {
+		width: 100%;
+    }
 
-}
+    #homeId {
+    	display: inline;
+    }
 
-html {
-	width: 99%;
-}
+    #homeId .tooltipText {
+		margin-left: -4.2em;
+		font-size: 1em;
+	}
 
-	
+    #homeIdSelected {
+    	display: inline;
+    	background-color: lightgrey;
+    }
+
+    #homeIdSelected .tooltipText {
+		margin-left: -4.2em;
+		font-size: 1em;
+	}
 }
 
 
 @media only screen and (max-width: 500px) {
+
 	.menuContainer a {
 		font-size: 0.9em;
+	}
+
+	.paddingAboutUs {
+		padding: 1.75em 3% 1.75em 3%;
 	}
 
 	.paddingDownload {
 		padding: 1.75em 3% 1.75em 3%;
 		border-right: 1px solid black;	
 		border-left:none
-	
-	}
-
-	.paddingAboutUs {
-		padding: 1.75em 3% 1.75em 3%;
 	
 	}
 
@@ -638,7 +611,7 @@ html {
 
 	#contentRight ul {
 	margin-left: 20%;
-}
+	}
 }
 
 
